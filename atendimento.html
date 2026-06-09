@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimentos</title>
+</head>
+<body>
+    <header>
+        <h1>Atendimento</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="post" name="atendimento" id="atendimento">
+                <label for="nome_completo">Nome completo:</label>
+                <input type="text" name="nome_completo" id="nome_completo" >
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" >
+                <br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+                <br><br>
+
+                <label for="tipo">Tipo da atendimento</label>
+                <select name="" id="">
+                    <option value="duvida">Dúvida</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                </select>
+                <br><br>
+                
+                <label for="prioridade">Prioridade:</label>
+                <input type="radio" name="prioridade" id="prioridade" value="baixa">Baixa
+                <input type="radio" name="prioridade" id="prioridade" value="media">Media
+                <input type="radio" name="prioridade" id="prioridade" value="alta" >Alta
+                <br><br>
+
+                <label for="descricao">Descrição em detalhes:</label><br>
+                <textarea name="descricao" id="descricao"></textarea>
+                <br><br>
+
+                <label for="arquivo">Anexo um arquivo:</label>
+                <input type="file" name="arquivo" id="arquivo">
+                <br><br>
+
+                <label for="autorizar">Autorizar contato:</label>
+                <input type="checkbox" name="autorizar" id="autorizar">
+                <br><br>
+
+                <input type="submit" name="enviar" value="Enviar" size="2"><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>if-pr</p>
+        <p>2026</p>
+    </footer>
+</body>
+</html>

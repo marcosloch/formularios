@@ -18,7 +18,7 @@
                 <br><br>
 
                 <label for="aluno_email">Email do aluno:</label>
-                <input type="text" name="aluno_email" id="aluno_email" >
+                <input type="email" name="aluno_email" id="aluno_email" >
                 <br><br>
 
                 <label for="senha">Senha:</label>
@@ -31,29 +31,19 @@
                 <label for="nascimendo_aluno">Data de nascimendo do aluno</label>
                 <input type="date" name="nascimendo_aluno" id="nascimendo_aluno">
                 <br><br>
+                
                 <label for="aluno_genero">genero do aluno</label>
                 <input type="radio" name="aluno_genero" id="aluno_maculino" value="masculino">masculino
                 <input type="radio" name="aluno_genero" id="aluno_feminino" value="feminino">feminino
                 <br><br>
-                <label for="disciplinas">Disciplinas a cursas</label><br>
-                <input type="checkbox" name="disciplinas" value="Banco_de_dados">Banco de dados
-                <input type="checkbox" name="disciplinas" value="Algoritimos">Algoritimos
-                <input type="checkbox" name="disciplinas" value="Novas_tecnogias">Novas tecnogias
-                <input type="checkbox" name="disciplinas" value="Sistemas_operecionais">Sistemas operecionais
+
+                <label for="termos">Termos do curso</label><br>
+                <input type="checkbox" name="termos" value="termos_privacidade">Termos de privacidade<br>
+                <input type="checkbox" name="termos" value="termos_publicidade">Termos de publicidade
                 <br><br>
-                <label for="semestre">Em qual semestre deseja se matricular:</label><br>
-                <select name="semestre" id="semestre">
-                    <option value="1semestre">1º semestre</option>
-                    <option value="2semestre">2º semestre</option>
-                    <option value="3semestre">3º semestre</option>
-                    <option value="4semestre">4º semestre</option>
-                    <option value="5semestre">5º semestre</option>
-                    <option value="6semestre">6º semestre</option>
-                </select>
-                <br><br>
-                <label for="observacoes">observações:</label>
-                <textarea name="observacoes" id="observacoes" rows="5" cols="50"></textarea>
-                <br><br>
+
+                <input type="reset"  name="reset"  value="Reset"  size="2"><br>
+                <input type="submit" name="enviar" value="Enviar" size="2"><br>
             </form>
         </section>
     </main>
